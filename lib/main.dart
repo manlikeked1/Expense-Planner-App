@@ -18,8 +18,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Personal Expenses',
       theme: ThemeData(
+        // brightness: Brightness.dark, //Added this to give a dark background
         primarySwatch: Colors.indigo,
-        accentColor: Colors.lime,
+        accentColor: Colors.indigo,
+        // canvasColor: Colors.black54,
         errorColor: Colors.redAccent,
         fontFamily: 'Quicksand',
         textTheme: ThemeData.light().textTheme.copyWith(
